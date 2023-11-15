@@ -1,58 +1,60 @@
-# Mow-and-More-WebPage
-Bootstrap web page for a bussines in arkansas 
-# Paintball Website - Price Management System
+# Mow & More - Lawn Mowing Company Landing Website
 
-This is a paintball website with a CRUD (Create, Read, Update, Delete) system for managing and updating prices. The system is implemented using PHP and MySQL, with Bootstrap 4 for the front-end.
+Welcome to the Mow & More landing website repository. This simple website serves as an online presence for our lawn mowing company, allowing visitors to learn more about our services and subscribe to our newsletter.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Database](#database)
+- [Netlify Forms](#netlify-forms)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-This website provides a platform for managing and updating prices for paintball-related products. It offers a user-friendly interface for administrators to perform CRUD operations on the pricing information.
+Mow & More is your trusted partner for professional lawn mowing services. Our landing website provides essential information about our company and services, along with a convenient form for visitors to subscribe to our newsletter.
 
 ## Features
 
-- **CRUD Operations:** Allows the creation, retrieval, updating, and deletion of paintball product prices.
-- **Bootstrap 4:** Utilizes Bootstrap 4 for a responsive and visually appealing user interface.
+- **Newsletter Subscription Form:** Allows visitors to submit their email addresses to subscribe to our newsletter.
+- **JavaScript and Bootstrap:** Utilizes JavaScript for dynamic behavior and Bootstrap for a responsive and visually appealing user interface.
 
 ## Installation
-!. Clone the repo
-2. Configure the database connection:
 
-    - Navigate to the `config` directory.
-    - Edit the `database.php` file to provide your MySQL database credentials.
+1. Clone the repository:
 
-3. Import the database:
+    ```bash
+    git clone https://github.com/yourusername/mow-and-more-website.git
+    ```
 
-    - Use the provided SQL script (`paintball_database.sql`) to create the necessary database and tables.
+2. Open the website in your code editor:
 
-4. Open the website in your browser:
+    ```bash
+    cd mow-and-more-website
+    ```
 
-    - Start a local server or upload the files to your web server.
-    - Access the website through your browser.
+3. Customize the content:
+
+    - Edit the HTML, CSS, and JavaScript files to tailor the website to your company's branding and information.
+    - Ensure Bootstrap is properly integrated for a responsive design.
+
+4. Deploy to Netlify:
+
+    - Connect the repository to your Netlify account.
+    - Netlify will automatically deploy the website and handle form submissions.
 
 ## Usage
 
-1. **Login:**
-    - Use the provided login page to enter your credentials.
+1. **Visit the Website:**
+    - Access the deployed website to learn more about Mow & More: [https://www.mowandmore.com](https://www.mowandmore.com).
 
-2. **Dashboard:**
-    - After logging in, you will be redirected to the dashboard.
-    - The dashboard provides options for managing and updating paintball product prices.
+2. **Subscribe to Newsletter:**
+    - Use the provided newsletter subscription form to submit your email address and stay updated with our latest news and promotions.
 
-3. **CRUD Operations:**
-    - Add, edit, and delete pricing information for paintball products.
+## Netlify Forms
 
-## Database
-
-The website uses a MySQL database to store pricing information for paintball products. The `paintball_database.sql` script provides the necessary database schema and sample data.
+The newsletter subscription form is powered by Netlify Forms. Form submissions are handled automatically by Netlify, and you can view and manage submissions through the Netlify dashboard.
 
 ## Contributing
 
